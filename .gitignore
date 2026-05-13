@@ -1,0 +1,33 @@
+# Datasets (large, fetched/regenerated outside git)
+data/raw/
+data/processed/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.Python
+
+# Virtual envs
+.venv/
+venv/
+env/
+.conda/
+
+# Training artifacts
+models/logs/
+*.log
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Stray files
+1.57
+=1.57

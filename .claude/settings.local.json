@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(conda activate *)",
+      "Bash(pip uninstall *)",
+      "PowerShell(conda activate adonye)",
+      "PowerShell(pip uninstall tensorflow_cpu -y)",
+      "PowerShell(pip install \"tensorflow[and-cuda]==2.19.1\" \"opencv-python==4.10.0.84\" \"kaggle>=1.6\" \"jupyter>=1.1\" \"ipykernel>=6.29\")",
+      "PowerShell([System.Environment]::SetEnvironmentVariable\\(\"KAGGLE_API_TOKEN\", \"KGAT_c8ac5f1f6b5fe91725921f86cac43a9e\", \"User\"\\); Write-Host \"Environment variable set successfully!\"; $env:KAGGLE_API_TOKEN)",
+      "Bash(python src/train.py)",
+      "Bash(git config *)",
+      "Bash(git add *)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\User\\Desktop\\PROJECTS\\Adeogo\\Adeogo"
+    ]
+  }
+}
